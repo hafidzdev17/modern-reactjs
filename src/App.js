@@ -1,11 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Hello from './Hello'
 import Article from './Article'
-import Rendering from './Rendering'
 import Conditional from './Conditional'
 import List from './ListRendering'
+
 
 function App () {
   return (
