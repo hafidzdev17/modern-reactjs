@@ -3,14 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import UnControlledForm from './HandleForm/UnControlledForm'
-import ControlledForm from './HandleForm/ControlledForm'
-
+import FormInput from './ComponentInput/FormInput';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <UnControlledForm /> */}
-    <ControlledForm />
+    <FormInput />
   </React.StrictMode>,
   document.getElementById('root')
 );
