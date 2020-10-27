@@ -3,9 +3,13 @@ import './App.css';
 import Article from './Article'
 import Conditional from './Conditional'
 import List from './ListRendering'
+import BlueButton from './Event/BlueButton'
 
 
 function App () {
+  function info () {
+    alert("halo bro")
+  }
   return (
     <div className="App">
       <hr />
@@ -18,6 +22,9 @@ function App () {
       <h1>List Rendering</h1>
       <List />
       {/* <Rendering /> */}
+      <hr />
+      <h1>Event</h1>
+      <BlueButton onCustomClick={info} caption="tampilkan info" />
     </div>
   );
 }
