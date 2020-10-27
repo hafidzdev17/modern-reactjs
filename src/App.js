@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Article from './Article'
+import Article from './Props/Article'
 import Conditional from './Conditional'
 import List from './ListRendering'
 import BlueButton from './Event/BlueButton'
