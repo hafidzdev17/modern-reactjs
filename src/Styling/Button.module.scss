@@ -1,0 +1,13 @@
+$bgColor: #eee;
+$bgColorHover: #fff;
+
+.default {
+    border: 1px solid #ddd;
+    background-color: $bgColor;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.default:hover {
+    background-color: $bgColorHover;
+}
