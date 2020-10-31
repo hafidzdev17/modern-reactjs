@@ -4,10 +4,14 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import FormInput from './ComponentInput/FormInput';
+import FormValidasi from './ComponentInput/FormValidasi';
+import Counter from './Hook/Counter'
 
 ReactDOM.render(
   <React.StrictMode>
-    <FormInput />
+    {/* <FormInput /> */}
+    {/* <FormValidasi /> */}
+    <Counter text="Counter" />
   </React.StrictMode>,
   document.getElementById('root')
 );
