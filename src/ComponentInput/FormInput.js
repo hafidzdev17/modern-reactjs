@@ -2,6 +2,7 @@ import React from 'react'
 import InputText from './InputText'
 import TextArea from './TextArea'
 import Select from './Select'
+import EmailInput from './EmailInput'
 
 const FormInput = () => {
     // const [name, setName] = React.useState('')
@@ -10,6 +11,7 @@ const FormInput = () => {
     // teknik cepat
     const [form, setForm] = React.useState({
         name: '',
+        email: '',
         alamat: '',
         jurusan: ''
     })
@@ -27,6 +29,8 @@ const FormInput = () => {
             <form onSubmit={handleSubmit}>
                 <InputText label='name' value={form.name} onChange={(e) =>
                     setForm({ ...form, name: e.target.value })} />
+                <EmailInput label='email' value={form.email} onChange={(e) =>
+                    setForm({ ...form, email: e.target.value })} />
                 <TextArea label="alamat" value={form.alamat} onChange={(e) =>
                     setForm({ ...form, alamat: e.target.value })} />
                 <Select label="jurusan" value={form.jurusan} onChange={(e) =>
