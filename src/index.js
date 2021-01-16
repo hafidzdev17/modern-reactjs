@@ -3,15 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import FormInput from './ComponentInput/FormInput';
-import FormValidasi from './ComponentInput/FormValidasi';
-import Counter from './Hook/Counter'
+import CustomHook from './Hook/customHook';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <FormInput /> */}
-    {/* <FormValidasi /> */}
-    <Counter text="Counter" />
+    <CustomHook />
   </React.StrictMode>,
   document.getElementById('root')
 );
