@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import CustomHook from './Hook/customHook';
+import Reducer from './Hook/useReducer/Reducer'
 
 ReactDOM.render(
   <React.StrictMode>
-    <CustomHook />
+    <Reducer />
   </React.StrictMode>,
   document.getElementById('root')
 );
